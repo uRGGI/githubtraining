@@ -11,7 +11,7 @@
         .then(data => {
         document
           .getElementById('lilpump') // hint: look at the h1 tag's id attribute in the body
-          .innerHTML = AND_WHAT_SHOULD_BE_HERE // hint: we need to access the first object's name
+          .innerHTML = data[1].name // hint: we need to access the first object's name
         })
     </script>
   </body>
