@@ -1,1 +1,4 @@
-console.log("HELLO FROM MAIN.JS");
+var cat = require("cat-me");
+
+
+console.log(cat('nyan'));
